@@ -1,0 +1,110 @@
+::before, ::after *{
+  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+position: relative;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(90deg, #dbdfe4 0%, #99b1b1 50%, #45889d 100%);
+}
+
+#section1 {padding-top:50px;height:300px;color:linear-gradient(90deg, #dbdfe4 0%, #99b1b1 50%, #45889d 100%);}
+#section2 {padding-top:50px;height:300px;color:linear-gradient(90deg, #dbdfe4 0%, #99b1b1 50%, #45889d 100%);}
+#section3 {padding-top:50px;height:300px;color:linear-gradient(90deg, #dbdfe4 0%, #759c9c 50%, #2b7991 100%);}
+#section41 {padding-top:50px;height:300px;color:linear-gradient(90deg, #dbdfe4 0%, #7fadad 50%, #45889d 100%);}
+#section42 {padding-top:50px;height:300px;color: #fff; background-color: #009688;}
+
+
+
+.jumbotron img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(2, 2, 3, 1.5);
+    justify-content: center;
+    margin-top: 165px;
+  }
+
+  
+  .navbar {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    opacity: 0.9;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+
+  h1{
+    font-size: 30px;
+    color: #111010;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+  }
+
+
+  #japanese-cuisine {
+    background-color: #f9f9f9;
+    padding: 50px;
+  }
+
+  .resto {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+   h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+
+   p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
+  .menu-group {
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+
+  #japan{
+    width: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+
+  }
+
+  #objets{
+    height: 400px;
+  }
+
+  @media (max-width: 768px) {
+    #section2,
+    #section3,
+    #section41 {
+      width: 100%;
+    }
+  }
+  
+

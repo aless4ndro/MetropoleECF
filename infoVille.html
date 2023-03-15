@@ -1,86 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>City Page</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>City Page</title>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="infoville.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="infoville.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
 
-<body>
+    <body>
+        <header>
 
-    <header>
-        <div class="jumbotron jumbotron-fluid text-light">
-            <div class="container">
-                <img src="https://www.japan-guide.com/thumb/destination_tokyo.jpg" alt="City Photo"
+            <div class="jumbotron jumbotron-fluid text-light">
+
+                <img src="imgEcf/japan-lettering-nihon-sticker.webp" alt="" id="japan">
+                <img
+                    src="https://www.japan-guide.com/thumb/destination_tokyo.jpg"
+                    alt="City Photo"
                     class="img-fluid rounded mx-auto d-block">
-            </div>
-        </div>
-    </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3 mb-3">
-                <div class="card">
-                    <img src="https://www.isetankl.com.my/wp-content/uploads/2020/08/TTR-Post.jpg" class="card-img-top"
-                        alt="...">
-                    <p class="card-text">Some quick example text to build on the card title and make
-                        up the bulk of the card's content.</p>
+            </div>
+        </header>
+
+        <div data-spy="scroll" data-target=".navbar" data-offset="50">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button
+                            type="button"
+                            class="navbar-toggle"
+                            data-toggle="collapse"
+                            data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Les Megalopole</a>
+                    </div>
+                    <div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li>
+                                    <a href="#section1">Section 1</a>
+                                </li>
+                                <li>
+                                    <a href="#section2">Section 2</a>
+                                </li>
+                                <li>
+                                    <a href="#section3">Section 3</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4
+                                        <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#section41">Section 4-1</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="row">
+                    <div id="section2" class="col-md-12 col-lg-6">
+                        <h1>Histoire de la ville</h1>
+                        <p>Tokyo, la ville la plus peuplée du monde, est une ville incroyablement
+                            dynamique avec une histoire fascinante.</p>
+                        <p>Peu de choses dans la vie sont plus agréables que de manger de la nourriture
+                            japonaise authentique préparée par un expert culinaire. Tokyo abonde de
+                            restaurants servant une myriade de spécialités locales proposées pour tous les
+                            goûts et budgets.</p>
+                    </div>
+                    <div id="section3" class="col-md-12 col-lg-6">
+                        <h1>Capitale Impériale</h1>
+                        <p>Au 17ème siècle, le shogunat Tokugawa a choisi Edo comme capitale de facto du
+                            Japon, et la ville a rapidement commencé à croître. En 1868, après la chute du
+                            shogunat, Edo est devenue la capitale impériale de Tokyo.</p>
+                    </div>
+                    <div id="section41" class="col-md-12">
+                        <h1>Développement continu</h1>
+                        <p>Depuis lors, Tokyo n'a cessé de se développer et d'attirer des immigrants de
+                            tout le Japon et du monde entier. Au fil des ans, la ville a subi plusieurs
+                            transformations majeures, notamment après la Seconde Guerre mondiale, lorsque
+                            Tokyo fut reconstruite en grande partie à partir de zéro.</p>
+                        <p>Aujourd'hui, Tokyo est considérée comme une ville mondiale majeure et est
+                            souvent considérée comme un centre culturel, technologique et financier</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-3">
-                <div class="card">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/07/a4/f6/2d/tokio-restaurant-bar.jpg"
-                        class="card-img-top" alt="...">
-                    <p class="card-text">Some quick example text to build on the card title and make
-                        up the bulk of the card's content.</p>
+
+            <br>
+            <br>
+            <hr style="color: black;">
+
+            <div class="container">
+                <h1>Restaurant Tokyo</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img
+                            src="imgEcf/CGF-TYO-HIGASHI-1_0.jpg"
+                            class="img-responsive shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                        <p>Jiromaru Akihabara follow your Restaurant on
+                            <a
+                                href="https://www.tripadvisor.fr/Restaurant_Review-g1066443-d8803515-Reviews-Jiromaru_Akihabara-Chiyoda_Tokyo_Tokyo_Prefecture_Kanto.html">
+                                Tripadvisor</a>
+                        </p>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img
+                        src="imgEcf/jushy.jpg"
+                        class="img-responsive shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                    <p>Mugi no Oto
+                        <a
+                            href="https://www.tripadvisor.fr/Restaurant_Review-g14133707-d8283419-Reviews-Nabezo_Shinjuku_Meijidori-Shinjuku_3_Chome_Shinjuku_Tokyo_Tokyo_Prefecture_Kant.html">
+                            Tripadvisor</a>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img
+                        src="imgEcf/resto2.webp"
+                        class="img-responsive shadow-lg p-2 mb-5 bg-body-tertiary rounded">
+                    <p>Nabezo Shinjuku Meijidori follow your Restaurant on
+                        <a
+                            href="https://www.tripadvisor.fr/Restaurant_Review-g14133707-d8283419-Reviews-Nabezo_Shinjuku_Meijidori-Shinjuku_3_Chome_Shinjuku_Tokyo_Tokyo_Prefecture_Kant.html">
+                            Tripadvisor</a>
+                    </p>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="col-md-3 mb-3">
-        <div class="card">
-            <img src="https://allaboutlimassol.com/en/assets/components/phpthumbof/cache/317-5833.TOKIO_BAR_1.85ec0c394532d152780ea20a986c7cbd.jpg"
-                class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make
-                    up the bulk of the card's content.</p>
+        <section id="japanese-cuisine">
+            <div class="resto">
+                <h2 >Cuisine traditionnelle japonaise</h2>
+                <br>
+                <p>La cuisine japonaise est connue pour son utilisation d'ingrédients frais et
+                    sa mise en valeur des saveurs naturelles. Découvrez ci-dessous quelques plats
+                    populaires :</p>
+
+                <div class="menu-group">
+                    <h3>Sushi</h3>
+                    <p>Le sushi est probablement le plat japonais le plus connu dans le monde. Il
+                        s'agit de riz vinaigré garni de poisson cru, de fruits de mer, d'omelette ou de
+                        légumes.</p>
+                </div>
+
+                <div class="menu-group">
+                    <h3>Ramen</h3>
+                    <p>Le ramen est une soupe japonaise à base de nouilles servie dans un bouillon
+                        de viande ou de poisson. Les ingrédients courants incluent des légumes, des
+                        oeufs, des viandes braisées ou grillées.</p>
+                </div>
+
+                <div class="menu-group">
+                    <h3>Takoyaki</h3>
+                    <p>Les takoyaki sont des petites boules de pâte frites remplies de petits
+                        morceaux de poulpe (tako) et garnies de mayonnaise et de sauce.</p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="https://allaboutlimassol.com/en/assets/components/phpthumbof/cache/322-0.TOKIO_RESTAURANT_6.85ec0c394532d152780ea20a986c7cbd.jpg"
-                class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make
-                    up the bulk of the card's content.</p>
-            </div>
-        </div>
-        </main>
+        </section>
 
         <div class="embed-responsive embed-responsive-16by9" id="objets">
-            <iframe width="400" height="225" src="https://www.youtube.com/embed/nQhaA-zyCiM"
-                title="Tokyo : la culture urbaine de demain | ARTE" frameborder="0"
+            <iframe
+                width="400"
+                height="100"
+                src="https://www.youtube.com/embed/nQhaA-zyCiM"
+                title="Tokyo : la culture urbaine de demain | ARTE"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen="allowfullscreen"></iframe>
-
-
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3448.1679362771593!2d-97.74306048550611!3d30.267870181808172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5993526e175%3A0x469f26b310138ff!2sAustin%20City%20Hall!5e0!3m2!1sen!2sus!4v1615861395581!5m2!1sen!2sus"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
+        <div class="embed-responsive embed-responsive-16by9" id="objets">
+            <iframe
+                src="https://www.google.com/maps/d/embed?mid=1OknYbJ3lvU5dbNodZlLSAEPlMimSUlA&ehbc=2E312F"
+                width="640"
+                height="480"></iframe>
+        </div>
 
         <!-- Bootstrap JS-->
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
             crossorigin="anonymous"></script>
-</body>
+    </body>
 
 </html>
