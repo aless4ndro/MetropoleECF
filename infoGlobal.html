@@ -12,34 +12,43 @@
 
     <link href=" https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://unpkg.com/tippy.js@1.1.3/dist/tippy.css">
-    <link rel="stylesheet" href="/scss/style.css">
+    <link rel="stylesheet" href="scss/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
-    <title>Document</title>
+    <title>Mégalopoles</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><span class="animated-text">Mégalopoles de mégapoles</span></a>
+    <a id="top"></a>
+
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html"><span class="animated-text ml-3">
+                Les MéGaloPoles</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#tokyo">Tokyo</a>
+                    <a class="nav-link" href="infoVille1.html" style="color: whitesmoke;">Tokyo</a>
+                    <span><img src="imgEcf/japon.png" alt="" style="width: 30px;"></span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#new-york">New York</a>
+                    <a class="nav-link" href="infoVille2.html" style="color: whitesmoke;">New York</a>
+                    <span><img src="imgEcf/etats-unis.png" alt="loogUsa" style="width: 30px;"></span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#londres">Londres</a>
+                    <a class="nav-link" href="infoVille3.html" style="color: whitesmoke;">Londres</a>
+                    <span><img src="imgEcf/royaume-uni.png" alt="logoLondon" style="width: 30px;"></span>
+
                 </li>
             </ul>
         </div>
+
     </nav>
 
 
@@ -78,15 +87,22 @@
             <h2>Tokyo</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="imgEcf/sticker-skyline-tokyo.jpg" alt="Tokyo skyline" class="img-fluid">
+                    <img src="imgEcf/sticker-skyline-tokyo.jpg" alt="Tokyo skyline" class="img-fluid" id="animatePhoto">
                 </div>
                 <div class="col-md-6">
                     <p>Tokyo est la capitale du Japon et l'une des villes les plus peuplées au monde. Elle est célèbre
-                        pour ses gratte-ciel, sa cuisine, sa mode et sa culture populaire.</p>
+                        pour ses gratte-ciel, sa cuisine, sa mode et sa culture populaire. Le Japon est situé dans
+                        l'océan Pacifique, à l'est de la Chine, de la Corée et de la Russie.
+                        Il est constitué de quatre îles principales (Honshu, Hokkaido, Kyushu et Shikoku) ainsi que de
+                        nombreuses petites îles.</p>
                     <ul>
                         <li>Population: 13,9 millions</li>
                         <li>Superficie: 2 187 km²</li>
                         <li>Pays: Japon</li>
+                        <li>Le PIB du Japon: 4,9 billions de dollars américains</li>
+                        <li>Langue officielle est le japonais</li>
+                        <li>La monnaie est le yen japonais ¥</li>
+
                     </ul>
                 </div>
             </div>
@@ -98,16 +114,19 @@
             <h2>New York</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="imgEcf/NYC.jpg" alt="New York skyline" class="img-fluid">
+                    <img src="imgEcf/NYC.jpg" alt="New York skyline" class="img-fluid" id="animatePhoto">
                 </div>
                 <div class="col-md-6">
                     <p>New York est la ville la plus peuplée des États-Unis et un centre mondial de la finance, de la
                         culture et du commerce. Elle est célèbre pour ses gratte-ciel, ses musées et ses monuments
-                        historiques.</p>
+                        historiques. New York est située dans l'État de New York, dans le nord-est des États-Unis.</p>
                     <ul>
                         <li>Population: 8,3 millions</li>
                         <li>Superficie: 468,125 km²</li>
                         <li>Pays: États-Unis</li>
+                        <li>Le PIB du New-york: 5,9 billions de dollars américains</li>
+                        <li>Langue officielle est l'angalis (american)</li>
+                        <li>La monnaie est le dollar $</li>
                     </ul>
                 </div>
             </div>
@@ -119,251 +138,75 @@
             <h2>Londres</h2>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="imgEcf/london.jpg" alt="Londres skyline" class="img-fluid">
+                    <img src="imgEcf/london.jpg" alt="Londres skyline" class="img-fluid" id="animatePhoto">
                 </div>
                 <div class="col-md-6">
                     <p>Londres est la capitale de l'Angleterre et du Royaume-Uni. Elle est célèbre pour ses musées, ses
                         monuments historiques et ses quartiers branchés. La Tamise traverse la ville, séparant le centre
-                        historique de la City de la banlieue moderne de South Bank.</p>
+                        historique de la City de la banlieue moderne de South Bank. Londres est considérée comme l'une
+                        des villes mondiales parmi les plus importantes, En 2008 elle a été classée neuvième dans le
+                        classement MasterCard Worldwide</p>
                     <ul>
                         <li>Population: 8,6 millions</li>
                         <li>Superficie: 1 572 km²</li>
                         <li>Pays: Royaume-Uni</li>
+                        <li>Le PIB du New-york: 2,9 billions de dollars américains</li>
+                        <li>Langue officielle est l'angalis</li>
+                        <li>La monnaie est la livre sterling £ </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
+    <!--Footer-->
 
-
-    <!-- Content Wrapper. Contains graph -->
-    <div class="container text-center">
-        <div class="row">
-            <div class="col">
-                <table id="animations-example-6"
-                    class="charts-css column show-labels hide-data data-spacing-5 show-primary-axis">
-                    <caption>
-                        Animation Example #6
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">
-                                Year
-                            </th>
-                            <th scope="col">
-                                Progress
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">
-                                2016
-                            </th>
-                            <td style="--size:0.2;">
-                                <span class="data">
-                                    20
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2017
-                            </th>
-                            <td style="--size:0.4;">
-                                <span class="data">
-                                    40
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2018
-                            </th>
-                            <td style="--size:1;">
-                                <span class="data">
-                                    100
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2019
-                            </th>
-                            <td style="--size:0.5;">
-                                <span class="data">
-                                    50
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2020
-                            </th>
-                            <td style="--size:0.3;">
-                                <span class="data">
-                                    30
-                                </span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+    <section id="footer">
+        <div class="container footer-row">
+            <hr>
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>Product</h4>
+                        <small>Our Plan</small><br>
+                        <small>Free Trial</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>About Us</h4>
+                        <small>Request Demo</small><br>
+                        <small>FAQs</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>Support</h4>
+                        <small>Features</small><br>
+                        <small>Contact Us</small>
+                    </div>
+                    <div class="link-title">
+                        <h4>Explore</h4>
+                        <small>Find a nonprofit</small><br>
+                        <small>Corporate Solution</small>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <table id="animations-example-4"
-                    class="charts-css column show-labels hide-data data-spacing-5 show-primary-axis">
-                    <caption>
-                        Animation Example #4
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">
-                                Year
-                            </th>
-                            <th scope="col">
-                                Progress
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">
-                                2016
-                            </th>
-                            <td style="--size:0.2;">
-                                <span class="data">
-                                    20
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2017
-                            </th>
-                            <td style="--size:0.4;">
-                                <span class="data">
-                                    40
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2018
-                            </th>
-                            <td style="--size:0.6;">
-                                <span class="data">
-                                    60
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2019
-                            </th>
-                            <td style="--size:0.8;">
-                                <span class="data">
-                                    80
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2020
-                            </th>
-                            <td style="--size:1;">
-                                <span class="data">
-                                    100
-                                </span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                </main>
-
-            </div>
-            <div class="col">
-                <table id="animations-example-1"
-                    class="charts-css column hide-data show-labels show-primary-axis data-spacing-6">
-                    <caption>
-                        Animation Example #1
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th scope="col">
-                                Year
-                            </th>
-                            <th scope="col">
-                                Progress
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">
-                                2016
-                            </th>
-                            <td style="--size:0.2;">
-                                <span class="data">
-                                    20
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2017
-                            </th>
-                            <td style="--size:0.4;">
-                                <span class="data">
-                                    40
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2018
-                            </th>
-                            <td style="--size:0.6;">
-                                <span class="data">
-                                    60
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2019
-                            </th>
-                            <td style="--size:0.8;">
-                                <span class="data">
-                                    80
-                                </span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                2020
-                            </th>
-                            <td style="--size:1;">
-                                <span class="data">
-                                    100
-                                </span>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <footer class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-center">Comparaison de mégapoles</p>
+            <div class="footer-right-col">
+                <div class="footer-info">
+                    <div class="copyright-text">
+                        <small>copyright 2023 <a href="https://github.com/aless4ndro">aless4ndro</a></small>
+                    </div>
+                    <button class="common-btn">English</button>
                 </div>
             </div>
         </div>
-    </footer>
+        </div>
+    </section>
+
+
+    <div class="social-icons">
+        <img src="imgEcf/facebook.png">
+        <img src="imgEcf/instagram.png">
+        <img src="imgEcf/twitter.png">
+    </div>
+    <a href="#top" id="back-to-top-btn"><img src="imgEcf/avion.png" alt="logoAvion"></a>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
