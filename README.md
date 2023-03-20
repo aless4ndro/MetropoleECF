@@ -161,6 +161,69 @@ Enfin, il y a deux media queries qui ajustent la taille des éléments avec la c
   }
 }
 ```
+## MediaQuerys
+
+Code all.css
+
+- Ces mediaquerys redimensionne la taille du body a partir de 500px, modifient l'aspct du back-to-top-btn
+
+```CSS
+@media (min-height: 500px) {
+  body {
+    position: relative;
+  }
+
+  #back-to-top-btn {
+    display: block;
+  }
+
+  #back-to-top-btn:hover {
+    text-decoration: none;
+  }
+
+  #back-to-top-btn:active {
+    top: 1px;
+  }
+
+  #back-to-top-btn:focus {
+    outline: none;
+  }
+}
+```
+
+Mediaquery footer styles.css
+
+- le but de ce script est de redimensionner le footer pour les ecrans de max 768px
+
+```CSS
+@media only screen and (max-width: 768px) {
+  .footer-left-col {
+    flex-basis: 100%;
+  }
+
+  .footer-right-col {
+    flex-basis: 100%;
+  }
+
+  .footer-info {
+    justify-content: center;
+  }
+
+  .footer-logo {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .footer-logo button {
+    margin-top: 10px;
+  }
+
+  .footer-left-col,
+  .footer-right-col {
+    flex-basis: 100%;
+  }
+}
+```
 
 ### Ce code correspond au dossier css->all.css
 
