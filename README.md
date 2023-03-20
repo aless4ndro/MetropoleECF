@@ -307,6 +307,44 @@ En résumé, ce code CSS permet de personnaliser les effets visuels d'une photo,
   border-radius: 10px;
 }
 ```
+### Ce code correspond au dossier css->style.css
+
+- Il decrit la class ocean, cette class sers a englober la section 2, 3, 4
+Elle permet de mettre du style dans le fichier css.
+
+```HTML
+    <div class="ocean">
+        <div class="navbar">
+            <a href="login.html"><img src="imgEcf/bubble.png" alt="logo" id="logo"></a>
+        </div>
+        <div class="content">
+            <div class="background-text">HELLO.</div>
+            <a href="infoGlobal.html"><button type="button">Faire un Tour</button></a>
+        </div>
+        <div class="sideBar">
+            <img src="imgEcf/menu.png" alt="menu" class="menu">
+            <div class="menuItems">
+                <img src="imgEcf/fb.png">
+                <img src="imgEcf/ig.png">
+                <img src="imgEcf/tw.png">
+            </div>
+            <div class="usefulLinks">
+                <img src="imgEcf/share.png">
+                <img src="imgEcf/info.png">
+            </div>
+        </div>
+        <div class="bubbles">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+        </div>
+    </div>
+```
 
 ## Scrollbar
 
