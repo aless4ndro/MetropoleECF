@@ -161,6 +161,69 @@ Enfin, il y a deux media queries qui ajustent la taille des éléments avec la c
   }
 }
 ```
+## MediaQuerys
+
+Code all.css
+
+- Ces mediaquerys redimensionne la taille du body a partir de 500px, modifient l'aspct du back-to-top-btn
+
+```CSS
+@media (min-height: 500px) {
+  body {
+    position: relative;
+  }
+
+  #back-to-top-btn {
+    display: block;
+  }
+
+  #back-to-top-btn:hover {
+    text-decoration: none;
+  }
+
+  #back-to-top-btn:active {
+    top: 1px;
+  }
+
+  #back-to-top-btn:focus {
+    outline: none;
+  }
+}
+```
+
+Mediaquery footer styles.css
+
+- le but de ce script est de redimensionner le footer pour les ecrans de max 768px
+
+```CSS
+@media only screen and (max-width: 768px) {
+  .footer-left-col {
+    flex-basis: 100%;
+  }
+
+  .footer-right-col {
+    flex-basis: 100%;
+  }
+
+  .footer-info {
+    justify-content: center;
+  }
+
+  .footer-logo {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .footer-logo button {
+    margin-top: 10px;
+  }
+
+  .footer-left-col,
+  .footer-right-col {
+    flex-basis: 100%;
+  }
+}
+```
 
 ### Ce code correspond au dossier css->all.css
 
@@ -244,6 +307,55 @@ En résumé, ce code CSS permet de personnaliser les effets visuels d'une photo,
   border-radius: 10px;
 }
 ```
+### Ce code correspond au dossier css->style.css
+
+- Il decrit la class ocean, cette class sers a englober la section 2, 3, 4
+Elle permet de mettre du style dans le fichier css.
+
+```HTML
+    <div class="ocean">
+        <div class="navbar">
+            <a href="login.html"><img src="imgEcf/bubble.png" alt="logo" id="logo"></a>
+        </div>
+        <div class="content">
+            <div class="background-text">HELLO.</div>
+            <a href="infoGlobal.html"><button type="button">Faire un Tour</button></a>
+        </div>
+        <div class="sideBar">
+            <img src="imgEcf/menu.png" alt="menu" class="menu">
+            <div class="menuItems">
+                <img src="imgEcf/fb.png">
+                <img src="imgEcf/ig.png">
+                <img src="imgEcf/tw.png">
+            </div>
+            <div class="usefulLinks">
+                <img src="imgEcf/share.png">
+                <img src="imgEcf/info.png">
+            </div>
+        </div>
+        <div class="bubbles">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+            <img src="imgEcf/bubble.png" alt="boules">
+        </div>
+    </div>
+```
+
+### Ce code correspond au dossier css->all.css
+
+- Il décrit le back-to-top-btn ce code a un id "top" cette id est appelé au bas de page pour faire apparaitre l'animation et il repart vers le haut une fois qu'on appuie dessous afin de  fiare remoter la page vers le haut.
+
+```HTML
+<a id="top"></a>
+...
+<a href="#top" id="back-to-top-btn"><img src="imgEcf/avion.png" alt="logoAvion"></a>
+```
+
 
 ## Scrollbar
 
