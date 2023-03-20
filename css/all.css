@@ -1,3 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+
+::before,
+::after * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  position: relative;
+  background: linear-gradient(90deg, #dbdfe4 0%, #99b1b1 50%, #45889d 100%);
+}
+
+#section1 {
+  padding-top: 50px;
+  height: 300px;
+  color: linear-gradient(90deg, #dbdfe4 0%, #99b1b1 50%, #45889d 100%);
+  margin-top: 100px;
+}
+
+#section2 {
+  padding-top: 50px;
+  height: 300px;
+  color: linear-gradient(90deg, #dbdfe4 0%, #99b1b1 50%, #45889d 100%);
+  margin-top: 100px;
+}
+
+#section3 {
+  padding-top: 50px;
+  height: 300px;
+  color: linear-gradient(90deg, #dbdfe4 0%, #759c9c 50%, #2b7991 100%);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#section4 {
+  padding-top: 50px;
+  height: 300px;
+  color: linear-gradient(90deg, #dbdfe4 0%, #7fadad 50%, #45889d 100%);
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+
+
+.jumbotron img {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(2, 2, 3, 1.5);
+  justify-content: center;
+  margin-top: 165px;
+}
+
+#myNavbar {
+  height: 200px !important;
+}
+
+.navbar {
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  opacity: 0.7;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #111010;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 15px;
+  font-family: 'Dancing Script', cursive !important;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Dancing Script', cursive !important;
+}
+
+
+h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p,
+legend {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+
+.japanese-cuisine {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+.resto {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu-group {
+  margin-bottom: 40px;
+}
+
+
+#japan {
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+
+}
+
+
+@media (max-width: 768px) {
+
+  #section2,
+  #section3,
+  #section41,
+  #section42 {
+    width: 100%;
+    height: 100%;
+
+
+  }
+
+  #japan {
+    width: 100px !important;
+    margin-right: 50px;
+  }
+}
+
 #animatePhoto {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
