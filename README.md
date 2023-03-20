@@ -13,7 +13,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd MetropoleECF
 ```
 
 ## UX/UI
@@ -34,6 +34,8 @@ Go to the project directory
 - 'Playfair Display' pour le footer
 
 - 'Arial' pour les Titre du all.css
+
+- 'Dancing'
 
 ### Screenshots
 
@@ -161,6 +163,7 @@ Enfin, il y a deux media queries qui ajustent la taille des éléments avec la c
   }
 }
 ```
+
 ## MediaQuerys
 
 Code all.css
@@ -307,6 +310,7 @@ En résumé, ce code CSS permet de personnaliser les effets visuels d'une photo,
   border-radius: 10px;
 }
 ```
+
 ### Ce code correspond au dossier css->style.css
 
 - Il decrit la class ocean, cette class sers a englober la section 2, 3, 4
@@ -355,7 +359,6 @@ Elle permet de mettre du style dans le fichier css.
 ...
 <a href="#top" id="back-to-top-btn"><img src="imgEcf/avion.png" alt="logoAvion"></a>
 ```
-
 
 ## Scrollbar
 

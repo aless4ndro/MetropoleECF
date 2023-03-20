@@ -272,3 +272,125 @@ button:hover {
     padding: 15px;
     opacity: 0.5;
 }
+
+
+
+.sideBar {
+    width: 40px;
+}
+
+.menu {
+    width: 20px;
+}
+
+.menuItems img,
+.usefulLinks img {
+    width: 20px;
+}
+
+.bubbles img {
+    width: 40px;
+}
+
+.bubbles img:nth-child(1) {
+    width: 20px;
+}
+
+.bubbles img:nth-child(3) {
+    width: 20px;
+}
+
+.bubbles img:nth-child(5) {
+    width: 20px;
+}
+
+.bubbles img:nth-child(6) {
+    width: 20px;
+}
+
+.bubbles img:nth-child(8) {
+    width: 20px;
+}
+
+.menuItems {
+    width: 40px;
+}
+
+.usefulLinks {
+    width: 40px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+}
+
+button:before {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+button:after {
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+
+@keyframes border-top-right {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+
+    25% {
+        width: 150px;
+        height: 0px;
+    }
+
+    50% {
+        width: 150px;
+        height: 38px;
+    }
+
+    100% {
+        width: 150px;
+        height: 38px;
+    }
+}
+
+@keyframes border-bottom-left {
+    0% {
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+    }
+
+    50% {
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+    }
+
+    50.1% {
+        width: 0px;
+        height: 0px;
+        opacity: 1;
+    }
+
+    75% {
+        width: 150px;
+        height: 0px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 150px;
+    }
+}
+
+
+
+@media (max-width: 1240px) {
+    .background-text {
+        font-size: 100px;
+    }
+}

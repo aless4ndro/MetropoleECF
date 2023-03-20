@@ -155,14 +155,7 @@ body {
 
 /*# sourceMappingURL=style.css.map */
 
-span {
-  overflow: hidden;
-  display: inline-block;
-  white-space: nowrap;
-  vertical-align: bottom;
-  position: relative;
-  z-index: 1;
-}
+
 
 section {
   padding: 80px 0;
@@ -355,33 +348,19 @@ hr {
 
 /*mediaQuery*/
 
-@media (min-height: 500px) {
-  body {
-    position: relative;
-  }
-
-  #back-to-top-btn {
-    display: block;
-  }
-
-  #back-to-top-btn:hover {
-    text-decoration: none;
-  }
-
-  #back-to-top-btn:active {
-    top: 1px;
-  }
-
-  #back-to-top-btn:focus {
-    outline: none;
-  }
-}
-
-
 
 @media only screen and (max-width: 768px) {
   .footer-left-col {
     flex-basis: 100%;
+  }
+
+  .animated-text {
+    font-size: 40px;
+  }
+
+  .map-container .point {
+    width: 10px;
+    height: 10px;
   }
 
   .footer-right-col {
@@ -407,16 +386,37 @@ hr {
   }
 }
 
-@media (max-width: 768px) {
-  .map-container .point {
-    width: 10px;
-    height: 10px;
-  }
-}
 
 @media (max-width: 576px) {
   .map-container .point {
     width: 5px;
     height: 5px;
+  }
+
+  .animated-text {
+    font-size: 40px;
+  }
+
+}
+
+@media (min-height: 500px) {
+  body {
+    position: relative;
+  }
+
+  #back-to-top-btn {
+    display: block;
+  }
+
+  #back-to-top-btn:hover {
+    text-decoration: none;
+  }
+
+  #back-to-top-btn:active {
+    top: 1px;
+  }
+
+  #back-to-top-btn:focus {
+    outline: none;
   }
 }
