@@ -346,6 +346,17 @@ Elle permet de mettre du style dans le fichier css.
     </div>
 ```
 
+### Ce code correspond au dossier css->all.css
+
+- Il décrit le back-to-top-btn ce code a un id "top" cette id est appelé au bas de page pour faire apparaitre l'animation et il repart vers le haut une fois qu'on appuie dessous afin de  fiare remoter la page vers le haut.
+
+```HTML
+<a id="top"></a>
+...
+<a href="#top" id="back-to-top-btn"><img src="imgEcf/avion.png" alt="logoAvion"></a>
+```
+
+
 ## Scrollbar
 
 J'ai utiliser les pseudo-éléments ::-webkit-scrollbar, ::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb pour personnaliser la barre de défilement sur les navigateurs Webkit (tels que Google Chrome et Safari). J'ai également ajouté des pseudo-éléments pour personnaliser la barre de défilement horizontale.
