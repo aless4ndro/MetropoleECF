@@ -35,6 +35,8 @@ Go to the project directory
 
 - 'Arial' pour les Titre du all.css
 
+- 'Dancing'
+
 ### Screenshots
 
 ![App Screenshot](/imgEcf/Capture%20d%E2%80%99%C3%A9cran%20Hello.png)
