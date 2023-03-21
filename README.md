@@ -1,4 +1,4 @@
-# MegalopoleECF
+# MetropolesECF
 
 Le site web est un guide de voyage en ligne pour les touristes qui souhaitent visiter trois capitales différentes.
 
